@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dino Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Start Panel -->
+        <div id="start-panel" class="panel">
+            <h1>Dino Game</h1>
+            <button id="start-btn">Start Game</button>
+            <div id="high-scores">
+                <h2>High Scores</h2>
+                <ol id="scores-list">
+                    <!-- Scores will be inserted here -->
+                </ol>
+            </div>
+        </div>
+
+        <!-- Game Area (initially hidden) -->
+        <div id="game" class="hidden">
+            <div id="dino"></div>
+            <div id="cactus"></div>
+            <div id="score">Score: 0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
